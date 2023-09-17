@@ -14,7 +14,7 @@ let [isShown, setIsShown] = useState(false)
                 </div>
                 
                 <div className="nav-texts">
-                    <div className = "works nav-item"><a target = "_blank" href="https://github.com/izuchukwumba">Github</a></div>
+                    <div className = "resume nav-item">Resume</div>
                     <div className = "projects nav-item" onClick = {() => setIsShown(prevState => !prevState)}>Projects</div>
                     <div className = "contact nav-item">Contact</div>
                 </div>
