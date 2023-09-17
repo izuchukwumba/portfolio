@@ -1,16 +1,9 @@
 import "./styles/Main.css";
-import js0 from "./images/java-script-logo.png"
-import jsImage from "./images/js_logo.png";
-import jsImage2 from "./images/js-logo2.png";
-import MongoDB from "./images/MongoDB_logo.png";
-import NodeJS from "./images/nodejs_logo.png"
-import NodeJS2 from "./images/nodejs.png"
-import ReactLogo from "./images/react-logo.png"
-import Typescript from "./images/typescript.png"
-import PythonLogo from "./images/python-logo.png"
 
 export default function Main(){
 
+
+    
     return( 
         <div className="main">
             <div className="text-container">
@@ -20,22 +13,19 @@ export default function Main(){
 
 
             <div class = "regular-text">I build highly functional web application using:</div>
-            {/* <div className = "tech-logo-container">
-                <img className = "tech-logo js" src = {jsImage} alt = "js"/>
-                <img className = "tech-logo ts" src = {Typescript} alt = "type"/>
-                <img className = "tech-logo react" src = {ReactLogo} alt = "react"/>
-                <img className = "tech-logo mongo" src = {MongoDB} alt = "mongo"/>
-                <img className = "tech-logo node" src = {NodeJS} alt = "node"/>
-                <img className = "tech-logo python" src = {PythonLogo} alt = "python"/>
-            </div> */}
             
-            <div className = "marquee-container">
-                <div className="marquee">
-                    HTML&nbsp;&nbsp;&nbsp;TailwindCSS&nbsp;&nbsp;&nbsp;
-                    JavaScript&nbsp;&nbsp;&nbsp;Python&nbsp;&nbsp;&nbsp;React
-                    &nbsp;&nbsp;&nbsp;Swift&nbsp;&nbsp;&nbsp;NodeJS
-                    &nbsp;&nbsp;&nbsp;TypeScript&nbsp;&nbsp;&nbsp;MongoDB
-                    &nbsp;&nbsp;&nbsp;ExpressJS
+            <div className = "typewriter">
+                <div className="typewritter-content">
+                    <span>HTML&nbsp;&nbsp;&nbsp;</span>
+                    <span>TailwindCSS&nbsp;&nbsp;&nbsp;</span>
+                    <span>JavaScript&nbsp;&nbsp;&nbsp;</span>
+                    <span>Python&nbsp;&nbsp;&nbsp;</span>
+                    <span>React&nbsp;&nbsp;&nbsp;</span>
+                    <span>Swift&nbsp;&nbsp;&nbsp;</span>
+                    <span>NodeJS&nbsp;&nbsp;&nbsp;</span>
+                    <span>TypeScript&nbsp;&nbsp;&nbsp;</span>
+                    <span>MongoDB&nbsp;&nbsp;&nbsp;</span>
+                    <span>ExpressJS&nbsp;&nbsp;&nbsp;</span>
                 </div>
             </div>
         </div>
