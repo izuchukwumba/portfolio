@@ -2,12 +2,15 @@
     display: flex;
     position: sticky;
     justify-content: space-between;
-    box-shadow: 1px 1px 15px 1px rgb(140, 143, 202);
+    box-shadow: 1px 0px 15px 1px rgb(140, 143, 202);
     padding: 20px 0px;
     padding-left: 10px;
     /* font-weight: 600; */
     font-size: 1rem;
     font-family: 'Inter', sans-serif;
+    width:100%;
+    z-index: 100;
+    top:0;
   }
   
 .nav-texts {
