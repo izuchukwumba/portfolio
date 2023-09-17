@@ -29,11 +29,11 @@ export default function Main(){
                 <img className = "tech-logo python" src = {PythonLogo} alt = "python"/>
             </div> */}
             
-            <marquee>HTML&nbsp;&nbsp;&nbsp;TailwindCSS&nbsp;&nbsp;&nbsp;
+            <div className="marquee">HTML&nbsp;&nbsp;&nbsp;TailwindCSS&nbsp;&nbsp;&nbsp;
                 JavaScript&nbsp;&nbsp;&nbsp;Python&nbsp;&nbsp;&nbsp;React
                 &nbsp;&nbsp;&nbsp;Swift&nbsp;&nbsp;&nbsp;NodeJS
                 &nbsp;&nbsp;&nbsp;TypeScript&nbsp;&nbsp;&nbsp;MongoDB
-                &nbsp;&nbsp;&nbsp;ExpressJS</marquee>
+                &nbsp;&nbsp;&nbsp;ExpressJS</div>
         </div>
     )
 }
