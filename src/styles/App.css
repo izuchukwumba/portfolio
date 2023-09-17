@@ -2,13 +2,14 @@
 
 *{
   box-sizing: border-box;
+  
 }
 
 body{
   background-color: #F7F3E3;
   color: #3F4739;
   font-family:'Poppins', sans-serif;
-  height: 100vh;
+  height: 100000px;
   width: auto;
   margin: 0;
   padding:0;

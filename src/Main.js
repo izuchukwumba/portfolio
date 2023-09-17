@@ -20,12 +20,9 @@ export default function Main(){
 
             <div class = "regular-text">I build highly functional web application using:</div>
             <div className = "tech-logo-container">
-                <img className = "tech-logo" src = {js0} alt = "js"/>
                 <img className = "tech-logo" src = {jsImage} alt = "js"/>
-                <img className = "tech-logo" src = {jsImage2} alt = "js"/>
                 <img className = "tech-logo" src = {MongoDB} alt = "mongo"/>
                 <img className = "tech-logo" src = {NodeJS} alt = "node"/>
-                <img className = "tech-logo" src = {NodeJS2} alt = "node"/>
                 <img className = "tech-logo" src = {ReactLogo} alt = "react"/>
                 <img className = "tech-logo" src = {Typescript} alt = "type"/>
             </div>

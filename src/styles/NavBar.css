@@ -1,11 +1,10 @@
 .nav-container{
   width: 100%;
   position: fixed;
-  /* z-index: 100; */
   top:0;
-  padding-left: 10px;
   box-shadow: 1px 0px 15px 1px rgb(140, 143, 202);
-  margin-bottom: 60px;
+  /* overflow: hidden; */
+  z-index: 100;
 }
 
 .nav {
@@ -44,7 +43,7 @@
     background-color: #3F4739;
     color: #F7F3E3;
     width: 250px;
-    height: 90px;
+    height: 65px;
     text-align: center;
     padding:10px;
     border-radius: 10px;
