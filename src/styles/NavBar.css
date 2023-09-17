@@ -1,10 +1,11 @@
 .nav-container{
   width: 100%;
-  position: sticky;
-  z-index: 100;
+  position: fixed;
+  /* z-index: 100; */
   top:0;
   padding-left: 10px;
   box-shadow: 1px 0px 15px 1px rgb(140, 143, 202);
+  margin-bottom: 60px;
 }
 
 .nav {
