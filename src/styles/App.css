@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Raleway&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F7F3E3;
+  color: #3F4739;
+  font-family:'Poppins', sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding:0;
+  font-size: 16px;
+}
+
+

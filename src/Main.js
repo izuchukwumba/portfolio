@@ -1,6 +1,8 @@
+import "./styles/Main.css"
+
 export default function Main(){
 
-    return(
+    return( 
         <div className="main">
             <div className="text-container">
                 <div className="text hi">Hi, I'm</div>

@@ -1,3 +1,4 @@
+import "./styles/App.css"
 import Navbar from "./Navbar.js"
 import Main from "./Main.js"
 import Footer from "./Footer.js"
