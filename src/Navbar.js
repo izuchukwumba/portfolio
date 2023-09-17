@@ -1,5 +1,6 @@
 import "./styles/NavBar.css"
 import {useState} from "react"
+import cuteDog from "./images/cute-dog.gif"
 
 export default function Navbar(){
 
@@ -9,7 +10,7 @@ let [isShown, setIsShown] = useState(false)
         <div className = "nav-container">
             <div className = "nav">
                 <div className = "nav-pic">
-                <img src = "./images/cute-dog.gif" alt = "cute dog"/>
+                <img src = {cuteDog} alt = "cute dog" width = "40px"/>
                 </div>
                 
                 <div className="nav-texts">
