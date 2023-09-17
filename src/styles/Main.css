@@ -61,10 +61,12 @@
     .tech-logo-container{
       display: grid;
       grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
       width:200px;
       overflow: none;
     }
 
+    
     .tech-logo{
     display: inline-block;
     width: 100px;
@@ -72,6 +74,9 @@
     padding: 20px;
     }
 
+    .mongo, .node{
+      width: 200px;
+      }
 
 
 
