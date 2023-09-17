@@ -16,6 +16,7 @@ export default function Main(){
             <i class="fa-brands fa-react"></i>
             <i class="fa-brands fa-node"></i>
             
+            
         </div>
     )
 }
