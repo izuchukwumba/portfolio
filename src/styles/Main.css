@@ -61,7 +61,7 @@
     .tech-logo-container{
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
+      gap: 1.25rem;
       width:200px;
       overflow: none;
     }
