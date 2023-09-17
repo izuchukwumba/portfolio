@@ -78,8 +78,23 @@
       width: 12.5rem;
       } */
 
-marquee{
+.marquee{
   letter-spacing: 4px;
+
+  width:100%;
+
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0%{
+    transform: translateX(100%)
+  }
+  100%{
+    transform: translateX(-100%);
+  }
 }
 
 
