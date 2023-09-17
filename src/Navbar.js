@@ -6,7 +6,7 @@ export default function Navbar(){
 let [isShown, setIsShown] = useState(false)
 
     return (
-        <div>
+        <div className = "nav-container">
             <div className = "nav">
                 <div className = "nav-pic">
                 <img src = "./images/cute-dog.gif" alt = "cute dog"/>
