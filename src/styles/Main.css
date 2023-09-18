@@ -98,7 +98,8 @@ max-width:100%;
 }
 
 
-.typewriter {
+.typewriter div{
+  max-width: 20%;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -109,10 +110,15 @@ max-width:100%;
     blink-caret .75s step-end infinite;
 }
 
+.typewriter div:nth-child(2){
+  color:red;
+}
+
+
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 100% }
+  to { width: 50% }
 }
 
 /* The typewriter cursor effect */
@@ -121,6 +127,9 @@ max-width:100%;
   50% { border-color: orange; }
 }
 
+.typewriter-content span{
+  display: inline-block;
+}
 
   /* .main::before {
     position: absolute;
