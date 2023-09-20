@@ -7,215 +7,145 @@
   }
   
     
-  .hi{
-    font-family: "Inter", sans-serif;
-    align-items: center;
-    font-size: 1.875rem;
-    margin-top: 1.25rem;
-    text-align: center;
-    line-height: 3.125rem;
-  }
+.hi{
+  letter-spacing: 2.5px;
+  font-family: "Raleway";
+  align-items: center;
+  margin-top: 1.25rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  /* line-height: 3.125rem; */
+}
+
+.izu{
   
-  .izu{
-    
   font-family: 'Raleway', sans-serif;
-    font-size: 3.125rem;
-    font-weight: 800;
-    text-align: center;
-    line-height: 3.125rem;
-  
-    color: #e1e1e103;
-    background-image: url("https://images.unsplash.com/photo-1499195333224-3ce974eecb47?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2cf549433129d4227d1879347b9e78ce&auto=format&fit=crop&w=1248&q=80");
-    background-repeat: repeat;
-    -webkit-background-clip:text;
-    animation: animate 15s ease-in-out infinite;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 900;
-  }
-  
-    @keyframes animate {
-      0%, 100% {
-        background-position: left top;
+  width: clamp(90%, 95%, 100%);
+  font-size: clamp(2rem, 3.125rem, 100%);
+  font-weight: 800;
+  text-align: center;
+  line-height: 3.125rem;
+  color: transparent;
+  background-image: url("/src/images/green-pic.jpg");
+  background-repeat: repeat;
+  -webkit-background-clip:text;
+  animation: animate 15s ease-in-out infinite;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+  @keyframes animate {
+    0%, 100% {
+      background-position: left top;
+    }
+    25%{
+      background-position: right bottom;
       }
-      25%{
-        background-position: right bottom;
-        }
-      50% {
-        background-position: left bottom;
-      }
-      75% {
-        background-position: right top;
-      }   
+    50% {
+      background-position: left bottom;
     }
-  
-  
-.regular-text{
-  margin: 1.875rem;
-  font-family:'Raleway', sans-serif;
-  align-content: center;
-  font-size: 2rem;
-  font-weight: normal; 
+    75% {
+      background-position: right top;
+    }   
+  }
+
+.subtitle{
+  letter-spacing: 2.5px;
+  font-family: "Raleway";
+  margin-top: 1rem;
 }
 
-    /* .tech-logo-container{
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1.25rem;
-      width:12.5rem;
-      overflow: none;
-    }
+.main-text{
+  font-family:'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
+}
 
-    
-    .tech-logo{
-    display: inline-block;
-    width: 6.25rem;
-    height: 6.25rem;
-    padding: 20px;
-    }
+.about-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;;
+}
 
-    .mongo, .node{
-      width: 12.5rem;
-      } */
-
-
-.marquee{
-overflow: hidden;
-max-width:100%;
+.about{
+  align-self: center;
+  width:600px;
 
 }
-.marquee-content{
+
+.about-heading{
+  width:min-content;
+  padding: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 1.1em;
+  border: 1px solid #27AE60;
+  border-radius: 7px;
+  letter-spacing: 1.5px;
+  margin-left: 10px;
+}
+
+.about-text{
+/* letter-spacing: 1px; */
+line-height: 30px;
+font-family: "Raleway";
+padding: 5px 15px 15px 15px;
+text-align: justify;
+}
+
+.skillset-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+  padding-top: 30px;
+}
+.skillset{
+  max-width:600px;
+}
+
+.skillset-heading{
+width:min-content;
+padding: 10px;
+font-family: "Inter", sans-serif;
+font-size: 1.1em;
+border: 1px solid #27AE60;
+border-radius: 7px;
+letter-spacing: 1.5px;
+margin-left: 10px;
+}
+
+.skill-all{
+padding: 5px 15px 0px 0px;
+}
+
+.skill-total{
   display: inline-block;
+  padding: 20px;
 }
 
-.marquee span{
-  letter-spacing: 4px;
-  white-space: nowrap;
-  position: relative;
-  left: 100%;
-  animation: marquee 15s linear infinite;
-  animation-delay: 1.5s
+.skill{
+padding-top: 10px;
+letter-spacing: 1px;
+font-family: "DM Sans", sans-serif;
+
+color: #4F4F4F;
+text-align: center;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
 }
 
-
-.typewriter div{
-  max-width: 8rem;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  position: absolute;
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+.skill-level{
+color: #27AE60;
+text-align: center;
+font-family: "DM Sans";
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
-
-.typewriter div:nth-child(1){
-left: 50%;
-top: 40%
-}
-
-.typewriter div:nth-child(2){
-left: 30%;
-top: 50%
-}
-
-.typewriter div:nth-child(3){
-left: 60%;
-top: 50%
-}
-
-.typewriter div:nth-child(4){
-left: 20%;
-top: 60%
-}
-.typewriter div:nth-child(6){
-left: 50%;
-top: 60%
-}
-.typewriter div:nth-child(7){
-left: 70%;
-top: 60%
-}
-.typewriter div:nth-child(8){
-left: 10%;
-top: 70%
-}
-.typewriter div:nth-child(9){
-left: 30%;
-top: 70%
-}
-.typewriter div:nth-child(10){
-left: 50%;
-top: 70%
-}
-.typewriter div:nth-child(5){
-left: 70%;
-top: 70%
-}
-                              
-
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 50% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
-.typewriter-content span{
-  display: inline-block;
-}
-
-  /* .main::before {
-    position: absolute;
-    content: "";
-    left: 0%;
-    top: 30%;
-    width: 28.125rem;
-    height: 28.125rem;
-    background: #1c1b1b;
-    border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
-    will-change: border-radius, transform, opacity;
-    animation: sliderShape 5s linear infinite;
-    display: block;
-    z-index: -1;
-    -webkit-animation: sliderShape 5s linear infinite;
-  }
-  @keyframes sliderShape{
-    0%,100%{
-    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
-      transform: translate3d(0,0,0) rotateZ(0.01deg);
-    }
-    34%{
-        border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
-      transform:  translate3d(0,5px,0) rotateZ(0.01deg);
-    }
-    50%{
-      transform: translate3d(0,0,0) rotateZ(0.01deg);
-    }
-    67%{
-      border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
-      transform: translate3d(0,-3px,0) rotateZ(0.01deg);
-    }
-  } */
-  
-  
-  
-  .footer{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    padding: 0.625rem;
-    display: flex;
-  }
-  
-  .contact{
-    padding-right:1.25rem
-  }

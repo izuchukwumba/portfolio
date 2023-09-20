@@ -1,0 +1,17 @@
+.footer{
+    bottom: 0;
+    left: 0;
+    padding: 0.625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer > div{
+    padding:1.25rem;
+    cursor: pointer;
+  }
+
+  .footer > div:hover{
+    color: #27AE60
+  }
