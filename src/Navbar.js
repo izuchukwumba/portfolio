@@ -20,18 +20,7 @@ let modalStyle = {
     position: "absolute",
     right: "20%",
     top: "7%",
-    cursor: "pointer",
-    backgroundColor: "#27AE60",
-    color: "#171717",
-    width: "15.625rem",
-    height: "4.0625rem",
-    textAlign: "center",
-    padding: "0.625rem",
-    borderRadius: "0.625rem",
-    position: "absolute",
-    right: "20%",
-    top: "7%",
-    cursor: "pointer",
+    cursor: "pointer"
 }
 
 
