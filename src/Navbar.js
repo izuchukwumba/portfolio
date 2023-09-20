@@ -9,6 +9,7 @@ let [isShown, setIsShown] = useState(false)
 
 let modalStyle = {
     opacity: isShown ? 1 : 0,
+    display: isShown ? "block" : "none",
     transition: "opacity 0.7s ease",
     backgroundColor: "#27AE60",
     color:" #171717",
