@@ -7,8 +7,8 @@ const techText = [
 
     {
         id: 2,
-        skill: 'TailwindCSS',
-        skill_level: "Intermediate"
+        skill: 'CSS',
+        skill_level: "Excellent"
     },
 
     {
