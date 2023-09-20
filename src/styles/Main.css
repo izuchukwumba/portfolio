@@ -103,7 +103,7 @@ text-align: justify;
   padding-top: 30px;
 }
 .skillset{
-  max-width:600px;
+  width:600px;
 }
 
 .skillset-heading{
@@ -118,12 +118,16 @@ margin-left: 10px;
 }
 
 .skill-all{
-padding: 5px 15px 0px 0px;
+padding: 5px 5px 0px 0px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
 }
 
 .skill-total{
   display: inline-block;
-  padding: 20px;
+  margin: 30px;
+  margin-left: 0;
+  max-width: 150px;
 }
 
 .skill{

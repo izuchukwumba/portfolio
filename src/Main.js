@@ -32,10 +32,10 @@ export default function Main(){
                         <div className="skill-all">
 
                                 {skillData.map((item) => (
-                            <div className="skill-total ">
-                            <div className="skill">{item.skill}</div>
+                            <div className="skill-total" key = {item.id}>
+                                <div className="skill">{item.skill}</div>
                                 <div className="skill-level">{item.skill_level}</div>
-                                </div>
+                            </div>
                                 ))}
                             
                         </div>

@@ -9,19 +9,7 @@ let [isShown, setIsShown] = useState(false)
 
 let modalStyle = {
     opacity: isShown ? 1 : 0,
-    zIndex: isShown ? 100 : -1,
-    transition: "opacity 0.7s ease",
-    backgroundColor: "#27AE60",
-    color:" #171717",
-    width: "15.625rem",
-    height: "4.0625rem",
-    textAlign: "center",
-    padding: "0.625rem",
-    borderRadius:" 0.625rem",
-    position: "absolute",
-    right: "20%",
-    top: "7%",
-    cursor: "pointer",
+    zIndex: isShown ? 100 : -1
 }
 
 
