@@ -1,7 +1,7 @@
 const techText = [
     {
         id: 1,
-        skill:'HTML5',
+        skill:'HTML',
         skill_level: "Excellent"
     },
 
@@ -13,7 +13,7 @@ const techText = [
 
     {
         id: 3,
-        skill: 'JavaScript',
+        skill: 'Javascript',
         skill_level: "Excellent"
     },
 
@@ -24,26 +24,20 @@ const techText = [
     },
 
     {
-        id: 5,
-        skill:'Swift',
-        skill_level: "Beginner"
-    },
-
-    {
-        id: 6,
-        skill: 'TypeScript',
-        skill_level: "Beginner"
-    },
-
-    {
         id: 7,
         skill:'React',
         skill_level: "Intermediate"
     },   
 
     {
+        id: 10,
+        skill: 'Node.js',
+        skill_level: "Intermediate"
+    },
+
+    {
         id: 8,
-        skill: 'ExpressJS',
+        skill: 'Express.js',
         skill_level: "Intermediate"
     },
 
@@ -54,10 +48,16 @@ const techText = [
     },
 
     {
-        id: 10,
-        skill: 'NodeJS',
-        skill_level: "Intermediate"
-    }
+        id: 6,
+        skill: 'Typescript',
+        skill_level: "Beginner"
+    },
+
+    {
+        id: 5,
+        skill:'Swift',
+        skill_level: "Beginner"
+    },
 ]
 
 export default techText;

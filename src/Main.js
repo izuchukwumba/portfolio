@@ -4,7 +4,7 @@ import skillData from "./data/skillData.js"
 export default function Main(){
     
     let skillStyle = {};
-    let mediaQuery = window.matchMedia( '( max-width: 480px )' )
+    let mediaQuery = window.matchMedia( "( max-width: 480px )" )
 
     if (mediaQuery.matches){
         skillStyle = {
@@ -24,11 +24,11 @@ export default function Main(){
                     <div className="about">
                         <div className="about-heading">About</div>
                         <div className = "about-text">I am a creative critical 
-                        thinker who is pasionate about building highly 
-                        functional and scalable web application architecture 
+                        thinker who is passionate about building highly 
+                        functional and scalable architecture for web applications  
                         using a very diverse skillset that I have learnt 
                         both in the classroom and on my personal development 
-                        journey. I strive to be excel at what I do using available 
+                        journey. I strive to excel at all I do using available 
                         resources and the beautiful gift of effective teamwork and 
                         collaboration.</div>
                 </div>
@@ -42,10 +42,10 @@ export default function Main(){
 
                                 {skillData.map((item) => (
                             <div className="skill-total" key = {item.id}>
-                                <div className="skill">{item.skill}</div>
+                                <div className="skill">{item.skill.toLowerCase()}</div>
                                 <div className="skill-level">{item.skill_level}</div>
                             </div>
-                                ))}
+                                ))}''
                             
                         </div>
                     </div>
