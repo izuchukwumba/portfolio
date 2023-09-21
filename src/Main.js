@@ -45,7 +45,7 @@ export default function Main(){
                                 <div className="skill">{item.skill.toLowerCase()}</div>
                                 <div className="skill-level">{item.skill_level}</div>
                             </div>
-                                ))}''
+                                ))}
                             
                         </div>
                     </div>
