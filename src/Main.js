@@ -2,8 +2,17 @@ import "./styles/Main.css";
 import skillData from "./data/skillData.js"
 
 export default function Main(){
-         
     
+    let skillStyle = {};
+    let mediaQuery = window.matchMedia( '( max-width: 768px )' )
+
+    if (mediaQuery.matches){
+        skillStyle = {
+            gridTemplateColumns: "1fr 1fr"
+
+        }
+    }
+
     return( 
         <div className="main">
             <div className="text-container">
@@ -29,7 +38,7 @@ export default function Main(){
 
                     <div className = "skillset">
                         <div className = "skillset-heading">Skillset</div>
-                        <div className="skill-all">
+                        <div className="skill-all" style = {skillStyle}>
 
                                 {skillData.map((item) => (
                             <div className="skill-total" key = {item.id}>

@@ -118,10 +118,9 @@ margin-left: 10px;
 }
 
 .skill-all{
-padding: 5px 5px 5px 10px;
+padding: 5px 10px 5px 20px;
 display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 6.25rem;
+grid-template-columns: 1fr 1fr 1fr;
 }
 
 .skill-total{
