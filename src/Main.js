@@ -4,7 +4,7 @@ import skillData from "./data/skillData.js"
 export default function Main(){
     
     let skillStyle = {};
-    let mediaQuery = window.matchMedia( '( max-width: 768px )' )
+    let mediaQuery = window.matchMedia( '( max-width: 480px )' )
 
     if (mediaQuery.matches){
         skillStyle = {
