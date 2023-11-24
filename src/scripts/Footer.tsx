@@ -4,14 +4,14 @@ import { useState } from "react";
 const Footer: React.FC = () => {
   const [twitterIconStyle, setTwitterIconStyle] = useState({
     color: "gray",
-    fontSize: "30px",
+    fontSize: "1.875rem",
     transition: "font-size 0.4s ease",
   });
 
   function handleMouseEnterTwitter() {
     setTwitterIconStyle({
       color: "rgba(0, 128, 255, 1)",
-      fontSize: "40px",
+      fontSize: "2.5rem",
       transition: "font-size 0.4s ease",
     });
   }
@@ -19,21 +19,21 @@ const Footer: React.FC = () => {
   function handleMouseLeaveTwitter() {
     setTwitterIconStyle({
       color: "gray",
-      fontSize: "30px",
+      fontSize: "1.875rem",
       transition: "font-size 0.4s ease",
     });
   }
 
   const [githubIconStyle, setGithubIconStyle] = useState({
     color: "gray",
-    fontSize: "30px",
+    fontSize: "1.875rem",
     transition: "font-size 0.4s ease",
   });
 
   function handleMouseEnterGithub() {
     setGithubIconStyle({
       color: "#000000",
-      fontSize: "40px",
+      fontSize: "2.5rem",
       transition: "font-size 0.4s ease",
     });
   }
@@ -41,21 +41,21 @@ const Footer: React.FC = () => {
   function handleMouseLeaveGithub() {
     setGithubIconStyle({
       color: "gray",
-      fontSize: "30px",
+      fontSize: "1.875rem",
       transition: "font-size 0.4s ease",
     });
   }
 
   const [emailIconStyle, setEmailIconStyle] = useState({
     color: "gray",
-    fontSize: "30px",
+    fontSize: "1.875rem",
     transition: "font-size 0.4s ease",
   });
 
   function handleMouseEnterEmail() {
     setEmailIconStyle({
       color: "#27AE60",
-      fontSize: "40px",
+      fontSize: "2.5rem",
       transition: "font-size 0.4s ease",
     });
   }
@@ -63,14 +63,14 @@ const Footer: React.FC = () => {
   function handleMouseLeaveEmail() {
     setEmailIconStyle({
       color: "gray",
-      fontSize: "30px",
+      fontSize: "1.875rem",
       transition: "font-size 0.4s ease",
     });
   }
 
   return (
     <div id="footer">
-      <div>Contact me on:</div>
+      <div id="contact-me">Contact me on:</div>
       <div className="contact-container">
         <div className="contact-footer twitter">
           <a target="_blank" href="https://twitter.com/the_izuchukwu">
