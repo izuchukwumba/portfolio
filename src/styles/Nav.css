@@ -1,0 +1,137 @@
+.nav-container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  height: 5.625rem;
+  background-color: #fff;
+  box-shadow: 0rem 0.1875rem 0.5rem 0.25rem rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem 0rem;
+}
+
+.nav-texts {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-pic {
+  position: absolute;
+  left: 0;
+  margin-left: 15px;
+}
+
+.nav-pic img {
+  width: 5rem;
+}
+
+.nav-texts div {
+  font-size: 1rem;
+  padding: 0.625rem;
+  margin-right: 0.9375rem;
+  height: 3.125rem;
+  width: 6.25rem;
+  border-radius: 0.625rem;
+  background-color: rgba(0, 128, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  transition: font-size 0.5s ease, font-weight 0.5s ease, width 0.5s ease, height 0.5s ease,
+    background-color 0.5s ease;
+}
+
+.nav-texts div:hover {
+  font-size: 1.1rem;
+  font-weight: 700;
+  width: 8.125rem;
+  height: 3.75rem;
+  background-color: rgba(0, 128, 255, 0.3);
+}
+
+.nav-texts div a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.modal {
+  position: fixed;
+  top: 10%;
+  right: 50%;
+  left: 50%;
+  z-index: 999;
+
+  width: max-content;
+  background-color: #ffffff;
+  border: 1px solid black;
+  padding: 0.625rem;
+  font-family: "Inter";
+  border-radius: 0.625rem;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease;
+}
+
+@keyframes slideFromTop {
+  to {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0%);
+  }
+}
+
+.modal p {
+  text-align: center;
+  color: rgba(30, 48, 80);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.x-icon {
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  color: red;
+  font-weight: 600;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.modal-btns {
+  display: flex;
+  gap: 1.25rem;
+}
+.modal-btns div {
+  margin: 0.3125rem;
+  background-color: rgba(30, 48, 80);
+  color: #ffffff;
+  width: fit-content;
+  padding: 0.8rem;
+  border-radius: 0.625rem;
+  cursor: pointer;
+  border: 1px solid rgba(30, 48, 80, 0.5);
+}
+
+.modal-btns div:hover {
+  background-color: #ffffff;
+  color: rgba(30, 48, 80);
+  transition: color 1s ease, background-color 1s ease;
+}

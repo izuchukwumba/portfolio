@@ -1,29 +1,31 @@
-#footer{
-    bottom: 0;
-    left: 0;
-    padding: 0.625rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 0;
-    margin-top: 10px;
-    font-family: "Raleway";
-    letter-spacing: 1.5px;
-  }
-  
-  .contact-footer{
-    padding:1.25rem;
-    cursor: pointer;
-  }
+#footer {
+  bottom: 0;
+  left: 0;
+  padding: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  margin-top: 10px;
+  font-family: "Raleway";
+  letter-spacing: 1.5px;
+  position: relative;
+  bottom: 0;
+}
 
-  .contact-container{
-    display: flex;
-  }
+.contact-footer {
+  padding: 1.25rem;
+  cursor: pointer;
+}
 
-  .copyright{
-    font-family: "Inter", sans-serif;
-    font-size: 0.5em;
-    color: #4F4F4F;
-    font-weight: 800;
-  }
+.contact-container {
+  display: flex;
+}
+
+.copyright {
+  font-family: "Inter", sans-serif;
+  font-size: 0.5em;
+  color: #4f4f4f;
+  font-weight: 800;
+}
