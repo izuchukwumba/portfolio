@@ -26,7 +26,7 @@ const Intro: React.FC = () => {
         <img src={Developer} id="intro-pic" alt="cartoon pic of male developer coding"></img>
       </div>
 
-      <section>
+      {/* <section>
         <div>
           <img src={Developer} alt="focused developer" />
         </div>
@@ -44,7 +44,7 @@ const Intro: React.FC = () => {
             collaboration.
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
