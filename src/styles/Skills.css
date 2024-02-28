@@ -29,7 +29,9 @@
   margin-top: -20px;
 }
 .skill {
-  color: rgba(0, 128, 255, 0.8);
+  /* color: rgba(0, 128, 255, 0.8); */
+  /* color: #ff725e; */
+  color: rgba(255, 114, 94, 0.8);
   font-family: "Montserrat";
   font-size: 4.375rem;
   font-style: normal;
