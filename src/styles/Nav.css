@@ -130,6 +130,7 @@
   font-weight: 600;
   font-size: 1.25rem;
   cursor: pointer;
+  /* width: 20px; */
 }
 
 .modal-btns {
@@ -138,17 +139,21 @@
 }
 .modal-btns div {
   margin: 0.3125rem;
-  background-color: rgba(30, 48, 80);
+  background: rgba(30, 48, 80);
   color: #ffffff;
   width: fit-content;
   padding: 0.8rem;
+  border: 2px solid rgba(30, 48, 80);
   border-radius: 0.625rem;
   cursor: pointer;
-  border: 1px solid rgba(30, 48, 80, 0.5);
+  /* border: 1px solid rgba(30, 48, 80, 0.5); */
+  font-weight: 600;
 }
 
 .modal-btns div:hover {
-  background-color: #ffffff;
+  /* border: 2px solid rgba(30, 48, 80); */
+
+  background: #ffffff;
   color: rgba(30, 48, 80);
-  transition: color 1s ease, background-color 1s ease;
+  transition: color 0.3s ease, background 0.3s ease;
 }

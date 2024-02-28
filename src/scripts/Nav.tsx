@@ -4,6 +4,7 @@ import Logo from "../images/code_typing_bro.png";
 
 const Nav: React.FC = () => {
   const [modalClicked, setModalClicked] = useState(false);
+  const [projectsModalClicked, setProjectsModalClicked] = useState(false);
 
   const handleDownload = () => {
     const link = document.createElement("a");
@@ -29,7 +30,9 @@ const Nav: React.FC = () => {
             <a href="#Skills">Skills</a>
           </div>
           <div>
-            <a href="#Projects">Projects</a>
+            <a href="#Projects" onClick={() => setProjectsModalClicked((prev) => !prev)}>
+              Projects
+            </a>
           </div>
           <div>
             <a href="#Footer">Contact</a>
@@ -42,7 +45,7 @@ const Nav: React.FC = () => {
           modalClicked
             ? {
                 animation: "slideFromTop",
-                animationDuration: "3s",
+                animationDuration: "1s",
                 animationTimingFunction: "ease",
                 animationFillMode: "forwards",
                 transform: "translateY(-100%)",
@@ -72,6 +75,32 @@ const Nav: React.FC = () => {
             View Resume
           </div>
         </div>
+      </div>
+
+      <div
+        className="modal"
+        style={
+          projectsModalClicked
+            ? {
+                animation: "slideFromTop",
+                animationDuration: "1s",
+                animationTimingFunction: "ease",
+                animationFillMode: "forwards",
+                transform: "translateY(-100%)",
+              }
+            : {
+                opacity: "0",
+                visibility: "hidden",
+              }
+        }
+      >
+        <p>Coming Soon...</p>
+        <i
+          className="x-icon fa-regular fa-circle-xmark"
+          onClick={() => {
+            setProjectsModalClicked((prev) => !prev);
+          }}
+        ></i>
       </div>
     </div>
   );
