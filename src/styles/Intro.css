@@ -47,14 +47,16 @@
 #tagline {
   color: rgba(205, 10, 254, 0.7);
   font-family: "Inter";
-  font-size: 1em;
+  font-size: 2.5rem;
   font-style: normal;
   font-weight: 900;
-  line-height: 150%;
+  /* line-height: 150%; */
 
-  height: 1em;
+  height: 3rem;
   overflow: hidden;
   display: flex;
+  /* align-items: center;
+  justify-content: center; */
   flex-direction: column;
 }
 
@@ -62,36 +64,59 @@
   animation: auto-scroll 15s infinite;
 }
 
+#tagline span:nth-child(1) {
+  color: #0080ff;
+}
+#tagline span:nth-child(2) {
+  color: #ff7a00;
+}
+#tagline span:nth-child(4) {
+  background: linear-gradient(180deg, #fd0 0%, #fe8fb1 95%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#tagline span:nth-child(5) {
+  color: #fd0098;
+}
+#tagline span:nth-child(6) {
+  background: linear-gradient(180deg, #000 0%, rgba(255, 0, 0, 0.59) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#tagline span:nth-child(7) {
+  color: #0080ff;
+}
+/* #tagline span:nth-child(7) {
+  color: red;
+} */
+
 @keyframes auto-scroll {
   0% {
     transform: translateY(0);
   }
-  5% {
-    transform: translateY(0);
-  }
-  10% {
-    transform: translateY(-1em);
+
+  15% {
+    transform: translateY(-3rem);
   }
   30% {
-    transform: translateY(-1em);
+    transform: translateY(-6rem);
   }
-  35% {
-    transform: translateY(-2em);
-  }
-  55% {
-    transform: translateY(-2em);
+  45% {
+    transform: translateY(-9rem);
   }
   60% {
-    transform: translateY(-3em);
+    transform: translateY(-12rem);
   }
-  80% {
-    transform: translateY(-3em);
+  75% {
+    transform: translateY(-15rem);
   }
-  85% {
-    transform: translateY(-4em);
+  90% {
+    transform: translateY(-18rem);
   }
   100% {
-    transform: translateY(-4em);
+    transform: translateY(-18rem);
   }
 }
 

@@ -1,7 +1,6 @@
 import "../styles/Intro.css";
 import Developer from "../images/focused_developer.png";
-import Taglines from "../data/intro_tagline";
-const Main: React.FC = () => {
+const Intro: React.FC = () => {
   return (
     <div className="intro">
       <div id="intro-container">
@@ -11,20 +10,20 @@ const Main: React.FC = () => {
             <span id="izu"> IZU.</span>
           </div>
           <div id="second-intro">
-            i am a{" "}
+            i am a
             <div id="tagline">
               <span>software engineer</span>
               <span>team player</span>
               <span>fullstack developer</span>
               <span>creative ideator</span>
-              {/* <span>web developer</span>
-              <span>critical thinker</span> */}
+              <span>web developer</span>
+              <span>critical thinker</span>
               <span>software engineer</span>
             </div>
             passionate about developing quality software applications.
           </div>
         </div>
-        <img src={Developer} id="intro-pic"></img>
+        <img src={Developer} id="intro-pic" alt="cartoon pic of male developer coding"></img>
       </div>
 
       <section>
@@ -50,4 +49,4 @@ const Main: React.FC = () => {
   );
 };
 
-export default Main;
+export default Intro;
