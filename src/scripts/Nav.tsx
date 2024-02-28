@@ -18,10 +18,8 @@ const Nav: React.FC = () => {
   return (
     <div className="nav-container" id="nav-id">
       <div className="nav">
-        <div className="nav-pic">
-          <a href="#nav-id">
-            <img src={Logo} alt="coding dude" />
-          </a>
+        <div className="nav-logo">
+          <a href="#nav-id">Izuchukwu Mba</a>
         </div>
 
         <div className="nav-texts">

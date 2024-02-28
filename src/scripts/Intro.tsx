@@ -1,30 +1,30 @@
-import "../styles/Main.css";
+import "../styles/Intro.css";
 import Developer from "../images/focused_developer.png";
-import Typewriter from "typewriter-effect";
+import Taglines from "../data/intro_tagline";
 const Main: React.FC = () => {
   return (
-    <div className="main">
-      <div id="intro-div">
-        <div id="hi">Hi, I'm Izuchukwu Mba, but you can call me</div>
-        <div id="izu">IZU</div>
-        <div id="tagline">
-          <Typewriter
-            options={{
-              strings: [
-                "Software Engineer",
-                "Web Developer",
-                "Creative Mind",
-                "Team Player",
-                "Resilient Attitude",
-                "Dedicated",
-                "Innovative",
-              ],
-              autoStart: true,
-              loop: true,
-              delay: 70,
-            }}
-          />
+    <div className="intro">
+      <div id="intro-container">
+        <div>
+          <div id="first-intro">
+            Hello, friend. I’m Izuchukwu Mba, but you can call me
+            <span id="izu"> IZU.</span>
+          </div>
+          <div id="second-intro">
+            i am a{" "}
+            <div id="tagline">
+              <span>software engineer</span>
+              <span>team player</span>
+              <span>fullstack developer</span>
+              <span>creative ideator</span>
+              {/* <span>web developer</span>
+              <span>critical thinker</span> */}
+              <span>software engineer</span>
+            </div>
+            passionate about developing quality software applications.
+          </div>
         </div>
+        <img src={Developer} id="intro-pic"></img>
       </div>
 
       <section>

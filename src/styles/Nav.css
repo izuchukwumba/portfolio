@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Pinyon+Script&display=swap");
 .nav-container {
   width: 100%;
   position: fixed;
@@ -10,6 +11,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  z-index: 100;
 }
 
 .nav {
@@ -30,38 +33,52 @@
   align-items: center;
 }
 
-.nav-pic {
+.nav-logo {
   position: absolute;
-  left: 0;
+  left: 15px;
   margin-left: 15px;
+  font-size: 3.125rem;
+  font-weight: 400;
+  line-height: 180%;
+  text-transform: lowercase;
+  font-family: "Pinyon Script";
+}
+.nav-logo a {
+  text-decoration: none;
+  color: #0080ff;
 }
 
-.nav-pic img {
+/* .nav-pic img {
   width: 5rem;
-}
+} */
 
 .nav-texts div {
-  font-size: 1rem;
+  font-size: 1.5625rem;
   padding: 0.625rem;
   margin-right: 0.9375rem;
   height: 3.125rem;
   width: 6.25rem;
   border-radius: 0.625rem;
-  background-color: rgba(0, 128, 255, 0.1);
+  /* background-color: rgba(0, 128, 255, 0.1); */
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 500;
+  font-weight: 400;
+  box-shadow: none;
   transition: font-size 0.5s ease, font-weight 0.5s ease, width 0.5s ease, height 0.5s ease,
-    background-color 0.5s ease;
+    background-color 0.5s ease, padding 0.5s ease;
+  box-shadow: 0.5s ease;
 }
 
 .nav-texts div:hover {
-  font-size: 1.1rem;
-  font-weight: 700;
-  width: 8.125rem;
+  font-size: 1.9rem;
+  font-weight: 500;
+  width: 10rem;
   height: 3.75rem;
+  padding: 1rem;
+
   background-color: rgba(0, 128, 255, 0.3);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 
 .nav-texts div a {
