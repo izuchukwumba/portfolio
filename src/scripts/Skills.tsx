@@ -3,7 +3,7 @@ import Orange_Developer from "../images/orange_developer.png";
 
 const Skills: React.FC = () => {
   return (
-    <div className="Skills">
+    <div id="Skills">
       <div id="skills-header-container">
         <img src={Orange_Developer} id="skills-header-img" />
         <div id="skills-header-text">

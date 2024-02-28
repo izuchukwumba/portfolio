@@ -24,12 +24,15 @@ const Nav: React.FC = () => {
 
         <div className="nav-texts">
           <div onClick={() => setModalClicked((prev) => !prev)}>Resume</div>
-          <div>Skills</div>
           <div>
-            <a href="#projects">Projects</a>
+            {" "}
+            <a href="#Skills">Skills</a>
           </div>
           <div>
-            <a href="#footer">Contact</a>
+            <a href="#Projects">Projects</a>
+          </div>
+          <div>
+            <a href="#Footer">Contact</a>
           </div>
         </div>
       </div>
