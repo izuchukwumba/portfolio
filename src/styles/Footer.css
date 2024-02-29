@@ -12,23 +12,66 @@
 
 #lets-talk-container {
   display: flex;
-  justify-content: center;
   align-items: center;
   width: 50%;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.3);
 }
 #lets-talk {
   color: #000;
   font-family: "Montserrat";
-  font-size: 4.375rem;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  padding-left: 25px;
+
+  display: flex;
+  gap: 20px;
+}
+
+#lets-talk-tagline {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 3.5rem;
+}
+#lets-talk-tagline span {
+  animation: lets-talk-auto-scroll 7s infinite;
+}
+
+@keyframes lets-talk-auto-scroll {
+  0% {
+    transform: translateY(0);
+  }
+
+  15% {
+    transform: translateY(-3.7rem);
+  }
+  30% {
+    transform: translateY(-7.4rem);
+  }
+  45% {
+    transform: translateY(-11.1rem);
+  }
+  60% {
+    transform: translateY(-14.8rem);
+  }
+  75% {
+    transform: translateY(-18.5rem);
+  }
+  100% {
+    transform: translateY(-22rem);
+  }
+  /* 100% {
+    transform: translateY(-22.2rem);
+  } */
 }
 
 #contact-section {
   width: 50%;
-  padding: 30px 20px 0;
+  padding: 40px 20px 0;
   border-left: 3px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.3);
 }
 
 #contact-instruction {
@@ -46,7 +89,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 30px 80px;
+  padding: 30px 80px 40px;
 }
 .social {
   font-size: 60px;
@@ -76,6 +119,7 @@
   /* color: #0080ff; */
   /* color: rgba(0, 128, 255, 1); */
   color: black;
+  padding-bottom: 20px;
 }
 
 #contact-me {
@@ -86,9 +130,18 @@
   cursor: pointer;
 }
 
-.copyright {
-  font-family: "Poppins", sans-serif;
-  font-size: 0.5em;
-  color: #4f4f4f;
-  font-weight: 800;
+#copyright {
+  color: #000;
+  font-family: "Garamond";
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  padding: 15px 0 5px;
+}
+#copyright span {
+  color: #0080ff;
+
+  text-decoration-line: underline;
 }

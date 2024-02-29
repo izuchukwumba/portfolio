@@ -44,7 +44,18 @@ const Footer: React.FC = () => {
       <div className="1copyright">2023 &copy; IZUCHUKWU MBA</div> */}
       <div id="contact-container">
         <div id="lets-talk-container">
-          <div id="lets-talk">Let's Talk</div>
+          <div id="lets-talk">
+            <div>Let's</div>
+            <div id="lets-talk-tagline">
+              <span>Talk</span>
+              <span>Collaborate</span>
+              <span>Brainstorm</span>
+              <span>Work Together</span>
+              <span>Change The World</span>
+              <span>Create Magic</span>
+              <span>Talk</span>
+            </div>
+          </div>
         </div>
         <div id="contact-section">
           <div id="contact-instruction">
@@ -65,16 +76,16 @@ const Footer: React.FC = () => {
               onClick={() => (window.location.href = "https://github.com/izuchukwumba")}
             ></i>
             <i
-              className="fa-brands fa-x-twitter social twitter"
-              onMouseEnter={() => setEndContactText("twitter")}
-              onMouseLeave={() => setEndContactText("")}
-              onClick={() => (window.location.href = "https://twitter.com/the_izuchukwu")}
-            ></i>
-            <i
               className="fa-brands fa-linkedin social linkedin"
               onMouseEnter={() => setEndContactText("linkedin")}
               onMouseLeave={() => setEndContactText("")}
               onClick={() => (window.location.href = "https://www.linkedin.com/in/bartholomew-mba")}
+            ></i>
+            <i
+              className="fa-brands fa-x-twitter social twitter"
+              onMouseEnter={() => setEndContactText("twitter")}
+              onMouseLeave={() => setEndContactText("")}
+              onClick={() => (window.location.href = "https://twitter.com/the_izuchukwu")}
             ></i>
           </div>
           <div id="contact-end-text">
@@ -89,6 +100,9 @@ const Footer: React.FC = () => {
               : "I look forward to speaking to you!"}
           </div>
         </div>
+      </div>
+      <div id="copyright">
+        built by <span>izuchukwu mba</span>, 2023
       </div>
     </div>
   );
