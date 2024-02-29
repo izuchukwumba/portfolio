@@ -5,7 +5,7 @@ const Skills: React.FC = () => {
   return (
     <div id="Skills">
       <div id="skills-header-container">
-        <img src={Orange_Developer} id="skills-header-img" />
+        <img src={Orange_Developer} alt="" id="skills-header-img" />
         <div id="skills-header-text">
           I craft high quality software programs using these tools/skillset:
         </div>

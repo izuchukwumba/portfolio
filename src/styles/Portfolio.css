@@ -1,0 +1,83 @@
+#Portfolio {
+  margin-top: 50px;
+  margin-left: 40px;
+}
+#portfolio-header {
+  color: #000;
+  font-family: "Inter";
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  padding-bottom: 50px;
+}
+.project-container {
+  display: flex;
+  height: auto;
+  padding-bottom: 60px;
+}
+.project-image {
+  width: 30%;
+  height: 100%;
+  border-radius: 25px;
+}
+.project-text {
+  margin-left: 51px;
+  display: flex;
+  flex-direction: column;
+  /* height: 100%; */
+  flex-grow: 1;
+}
+.project-name {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 2.5125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  animation: color 1s ease;
+}
+.project-name:hover,
+.project-image:hover {
+  cursor: pointer;
+  color: rgba(0, 128, 255, 1);
+}
+.project-description {
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-right: 20px;
+}
+.tech-stack-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding-top: 20px; */
+  /* position: relative;
+  bottom: 0%; */
+  padding-top: 15px;
+  align-items: flex-end;
+  margin-top: auto;
+}
+.tech-stack-item {
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+.tech-stack-indicator {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+.tech-stack-used {
+  font-size: 1.3rem;
+  text-transform: lowercase;
+  font-family: "Poppins";
+}

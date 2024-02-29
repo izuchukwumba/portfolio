@@ -3,6 +3,7 @@ import "../styles/App.css";
 import Nav from "./Nav";
 import Intro from "./Intro";
 import Skills from "./Skills";
+import Portfolio from "./Portfolio";
 
 import Footer from "./Footer";
 
@@ -12,7 +13,8 @@ const App: React.FC = () => {
       <Nav />
       <Intro />
       <Skills />
-      {/* Intro, Skills, Portfolio */}
+      <Portfolio />
+      {/* Portfolio */}
       <Footer />
     </div>
   );
