@@ -88,7 +88,7 @@ const Footer: React.FC = () => {
               onClick={() => (window.location.href = "https://twitter.com/the_izuchukwu")}
             ></i>
           </div>
-          <div id="contact-end-text">
+          <div id="contact-end-text" className={endContactText ? "fade-in active" : "fade-in"}>
             {endContactText === "email"
               ? "Shoot me an email"
               : endContactText === "github"

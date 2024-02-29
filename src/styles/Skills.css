@@ -1,11 +1,11 @@
 #Skills {
   background: rgba(160, 207, 255, 0.1);
+  padding-top: 5.625rem;
 }
 
 #skills-header-container {
   display: flex;
   /* justify-content: space-between; */
-  padding-top: 70px;
 }
 #skills-header-img {
   width: 50.63%;
