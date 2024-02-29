@@ -13,14 +13,14 @@ const Portfolio: React.FC = () => {
               alt=""
               className="project-image"
               onClick={() => {
-                window.location.href = item.link;
+                window.open(item.link, "_blank");
               }}
             />
             <div className="project-text">
               <div
                 className="project-name"
                 onClick={() => {
-                  window.location.href = item.link;
+                  window.open(item.link, "_blank");
                 }}
               >
                 {item.name}
