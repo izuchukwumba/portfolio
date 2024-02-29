@@ -102,7 +102,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div id="copyright">
-        built by <span>izuchukwu mba</span>, 2023
+        &copy; built by <span>izuchukwu mba</span>, 2023
       </div>
     </div>
   );
