@@ -20,6 +20,9 @@ const Skills: React.FC = () => {
         <div className="skill">express.js</div>
         <div className="skill">mongodb</div>
         <div className="skill">html/css</div>
+        <div className="skill">tailwindcss</div>
+        <div className="skill">git</div>
+        <div className="skill">firebase</div>
       </div>
     </div>
   );
