@@ -19,7 +19,7 @@
 #lets-talk {
   color: #000;
   font-family: "Montserrat";
-  font-size: 3rem;
+  font-size: 3rem; /*2.5rem*/
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -33,7 +33,7 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  height: 3.5rem;
+  height: 3.5rem; /*3rem*/
 }
 #lets-talk-tagline span {
   animation: lets-talk-auto-scroll 7s infinite;
@@ -67,6 +67,46 @@
   } */
 }
 
+#magic > span:nth-child(1) {
+  color: red;
+}
+
+#magic > span:nth-child(2) {
+  color: orange;
+}
+#magic > span:nth-child(3) {
+  color: yellow;
+}
+#magic > span:nth-child(4) {
+  color: green;
+}
+#magic > span:nth-child(5) {
+  color: blue;
+}
+
+.glitter {
+  opacity: 0;
+  font-size: 2rem;
+  animation: glitter-animation 1s infinite;
+  text-align: center;
+  color: indigo;
+}
+
+@keyframes glitter-animation {
+  0% {
+    opacity: 0;
+    font-size: 2rem;
+  }
+  50% {
+    opacity: 1;
+    font-size: 2.5rem;
+  }
+  100% {
+    opacity: 0;
+    font-size: 2rem;
+  }
+}
+
 #contact-section {
   width: 50%;
   padding: 40px 20px 0;
@@ -77,11 +117,11 @@
 #contact-instruction {
   color: rgba(0, 0, 0, 0.7);
   font-family: "Montserrat";
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  text-transform: uppercase;
+  text-transform: none;
   text-align: center;
 }
 
@@ -92,7 +132,7 @@
   padding: 30px 80px 40px;
 }
 .social {
-  font-size: 60px;
+  font-size: 40px;
   /* color: rgba(0, 0, 0, 0.7); */
   color: rgb(105, 103, 103);
   transition: color 0.5s ease;
@@ -114,7 +154,7 @@
 #contact-end-text {
   text-align: center;
   font-family: "Montserrat";
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
   /* color: #0080ff; */
   /* color: rgba(0, 128, 255, 1); */
@@ -142,7 +182,7 @@
 #copyright {
   color: #000;
   font-family: "Garamond";
-  font-size: 1.5625rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;

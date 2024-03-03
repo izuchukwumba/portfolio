@@ -52,15 +52,21 @@ const Footer: React.FC = () => {
               <span>Brainstorm</span>
               <span>Work Together</span>
               <span>Change The World</span>
-              <span>Create Magic</span>
+              <span id="magic">
+                Create <span>M</span>
+                <span>a</span>
+                <span>g</span>
+                <span>i</span>
+                <span>c</span> <i className="glitter fa-solid fa-star"></i>
+              </span>
               <span>Talk</span>
             </div>
           </div>
         </div>
         <div id="contact-section">
           <div id="contact-instruction">
-            DO YOU HAVE ANY QUESTIONS, IDEAS, OR PROJECTS IN MIND? IF YOU WANT TO COLLABORATE OR
-            WORK TOGETHER ON SOMETHING, FEEL FREE TO GET IN TOUCH:
+            Do you have any questions, ideads or projects in mind? Would you like us to collaborate
+            or work together on a great concept? FEEL FREE TO GET IN TOUCH:
           </div>
           <div id="social-networks">
             <i
